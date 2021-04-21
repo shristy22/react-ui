@@ -8,3 +8,84 @@
     color: white;
     /* position: absolute; */
 }
+
+.socializer-text{
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 40px;
+}
+.sub-sidebar{
+    margin-left: 27px;
+}
+.img-size{
+    width: 20px;
+    height: 20px;
+}
+.ml-18{
+    margin-left: 18px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.bold{
+    font-weight: bold;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-25{
+    margin-top: 25px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+
+.mt-64{
+    margin-top: 64px;
+}
+.fs-12{
+    font-size: 12px;
+}
+.arrow{
+    justify-content: center;
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    border-radius: 16px;
+}
+.upgrade-label{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.upgrade-btn{
+    background: #FFFFFF;
+    border-radius: 16px;
+    border: none;
+    height: 40px;
+    width: 154px;
+    margin-left: 70px;
+    margin-bottom: 34px;  
+}
+@media only screen and (max-device-width : 1084px){
+    .sideBarWidth{
+        width: 200px;
+        border-radius: 20px;
+        background-color: #3D41D7;
+        /* opacity: 0.1; */
+        box-shadow: 0px 14px 34px rgba(34, 37, 169, 0.4);
+       
+        color: white;
+        /* position: absolute; */
+    }
+    .upgrade-btn{
+    background: #FFFFFF;
+    border-radius: 16px;
+    border: none;
+    height: 40px;
+    /* width: 60px; */
+    margin-left: 20px;
+    margin-bottom: 34px;  
+    }
+}

@@ -5,24 +5,31 @@ import logo from '../../assets/logo.png';
 import music from '../../assets/music.png';
 import shady from '../../assets/shady1.jpeg';
 import DonutChart from 'react-donut-chart';
+import linechart from '../../assets/linechart.png';
+import userprofile from '../../assets/userprofile.png'
 import { ChartDonut } from '@patternfly/react-charts';
+// import { Doughnut } from 'react-chartjs-2';
 
+// import LineChart from '../linechart';
 // import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 class Dashboard extends React.Component {
     render() {
         return (
-            <div>
+            <div className="setSize">
             
               <div class="d-flex" style={{marginLeft: '74px'}}>
                      <div className="mr-auto">
-                        <span class="label">Hello Dev, Welcome back!!</span>
+                        <span className="label">Hello Dev, Welcome back!!</span>
                         <p className="dash-body">Your Dashboard is uptdated</p>
                     </div>
-                        <div class="icon-size">
+                        <div className="icon-size">
                             <i class="fa fa-bell" style={{marginRight: '40px'}}></i>
                             <i class="fa fa-cog" style={{marginRight: '40px'}}></i>
-                            <i class="fa fa-user-circle-o"></i>
+                            
                         </div>
+                        <div className="propic" style={{marginRight:'50px'}}>
+                                    <img src={userprofile} style={{width: '40px',height:'40px', borderRadius:'50%'}}/>
+                            </div>
                 </div>
 
              
@@ -33,8 +40,8 @@ class Dashboard extends React.Component {
                     <div style={{margin: '22px'}}>
                         <img src={logo} alt="Logo" className="first-child-pic" />
                         <div className="d-flex" style={{marginTop: '58px'}}>
-                            <div>
-                                <p style={{fontWeight: 600, fontSize: '20px'}}>Latest Updates</p>
+                            <div className="mr-auto">
+                                <span style={{fontWeight: 600, fontSize: '20px'}}>Latest Updates</span>
                                 <p style={{fontSize: '12px'}} className="light-text">FB Industry</p>
                             </div>
                             <div className="plus">
@@ -45,17 +52,21 @@ class Dashboard extends React.Component {
                 </div>
                 {/* second card */}
                 <div className="child">
-                        <div className="second lightBlue-color border-radius">
-                                hi
+                    <div className="second lightBlue-color border-radius">
+                        {/* <LineChart/> */}
+                        <img src={linechart} className="linechart" />
+                        
                         </div>
                         <div className="d-flex" style={{marginTop: '30px'}}>
                             <div className="lightBlue-color sub-size border-radius">
-                                <div style={{textAlign: 'center'}}>
-                                    <div className=" d-flex justify-content-center">
+                                <div style={{textAlign: "center"}}>
+                                    <div className=" d-flex justify-content-center circle-play">
                                         <i class="fa fa-play"></i>
                                     </div>
-                                    <p style={{fontSize:'17px', fontWeight: "bold"}}>40K</p>
+                                    <div style={{marginTop:'15px'}}>
+                                    <span style={{fontSize:'17px', fontWeight: "bold"}}>40K</span>
                                     <p className="light-text" style={{fontSize: '12px'}}>Videos Played</p>
+                                    </div>
                                  </div>
                             </div>
                             <div className="blue-color sub-size border-radius" style={{marginLeft:'27px'}}>
@@ -74,10 +85,12 @@ class Dashboard extends React.Component {
                     <div style={{marginLeft: '36px', color:'#ffff',marginTop: '36px'}}>
                         <p style={{fontWeight: '600', fontSize: '26px', width: '179px'}}>What's your plan?</p>
                         <p style={{fontSize:'16px'}}>Looks like a shady day</p>
-                        <p style={{fontSize: '48px'}}>36</p>
+                        <p style={{fontSize: '48px'}}>36°</p>
                     </div>
-                    <div className="plus-2">
-                           <i class="fa fa-plus-square icon"></i>
+                    <div className="plus-icon" style={{backgroundColor:'white', width:'60px',height:'60px' ,float:'right', marginRight:'23px',marginBottom:'17px'}}>
+                        <div className="plus-2">
+                            <i class="fa fa-plus-square icon"></i>
+                        </div>
                     </div>
                 </div>
               <div className="border-radius forth child" style={{marginTop:'53px'}}>
@@ -127,19 +140,6 @@ class Dashboard extends React.Component {
                 </div>
               </div>
 
-     
-              {/* <DonutChart
-                data={[{
-                    label: 'Give you up',
-                    value: 89
-                },
-                {
-                    label: '',
-                    value: 11,
-                    isEmpty: true
-                }]} 
-                height='500'
-                width='500'/> */}
                
                   <div style={{textAlign: 'center', marginLeft: '80px',marginTop:'53px'}}>
                     <ChartDonut style={{ height: '230px', width: '230px'}}
@@ -158,9 +158,10 @@ class Dashboard extends React.Component {
                         <p style={{fontWeight: 'bold', fontSize: '57px'}}>270k</p>
                         <p style={{fontWeight: 'bold'}}>PostReach This Year</p>
                     </div>
-                </div>            
-              </div>
-                
+                </div> 
+                     
+              </div>  
+              
             </div>
         );
       }

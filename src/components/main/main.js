@@ -6,7 +6,7 @@ import Dashboard from '../dashboard/dashboard';
 class Main extends React.Component {
     render() {
         return (
-            <div className="d-flex main" >
+            <div className="main" >
                 <div>
                     <Sidebar/>
                 </div>
