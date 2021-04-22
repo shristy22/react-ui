@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+/* .grandparents{
+    width: 100vw;
+    height: auto;
+    background-color: aquamarine;
+   
+} */
+.parents{
+    width: 100vw;
+    height: auto;
+    /* margin: auto; */
+   
+    /* background-color: green ; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transition: all 0.2 linear;
+    /* background-color: aquamarine; */
+}
+
+.childS{
+    /* width: 200px; */
+    height: auto;
+    /* background-color: yellow ; */
+    /* box-shadow: 0 0 20px #bac3c3; */
+    /* margin-top: 20px; */
+    /* flex: 1; */
+    margin: 10px;
+}
+.child1{
+    /* width: auto; */
+    height: auto;
+    flex: 1;
+}
+.child2{
+    /* background-color: brown; */
+    /* width: 200px; */
+    flex: 4;
+    height: 944px;
+    overflow: scroll;
+}
+
+@media (max-width: 768px){
+    .grandparents{
+        height: auto;
+    }
+}

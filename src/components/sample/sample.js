@@ -1,10 +1,10 @@
 import React,{Component} from 'react';
-import './main.css';
+import './sample.css';
 import Sidebar from '../sidebar/sidebar';
 import Dashboard from '../dashboard/dashboard';
 
 
-class Main extends React.Component {
+class Sample extends React.Component {
     render() {
         return (
             <div className="grandparents " >
@@ -23,4 +23,4 @@ class Main extends React.Component {
         );
       }
     }
-export default Main;
+export default Sample;

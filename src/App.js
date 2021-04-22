@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Main from './components/main/main';
+// import Main from './components/main/main';
 import Sample from './components/sample/sample';
 
 // import './node_modules/bootstrap/dist/css/bootstrap.min.css';
@@ -8,8 +8,8 @@ import Sample from './components/sample/sample';
 function App() {
   return (
     <div>
-        <Main/>
-        {/* <Sample/> */}
+        {/* <Main/> */}
+        <Sample/>
     </div>
   );
 }
