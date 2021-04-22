@@ -108,7 +108,7 @@
     border-radius: 15%;
 }
 .third{
-    width: 314px;
+    width: 303px;
     /* height: 331px; */
 }
 .child{
@@ -185,7 +185,7 @@ height: 168px;
 .font-10{
     font-size: 10px;
 }
-@media only screen and (max-device-width : 1446px){
+@media only screen and (max-device-width : 1435px){
     .third{
         margin-top: 80px;
     }
