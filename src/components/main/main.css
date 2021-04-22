@@ -1,8 +1,22 @@
 .main{
     margin-top: 30px;
     margin-left: 30px;
-    
+    /* flex-wrap: wrap; */
         display: flex;
+        /* flex-direction: row;
+        justify-content: space-around; */
       
+}
+.dash{
+    /* position: fixed; */
+    /* overflow-x: hidden; */
+    /* top: 0px; */
+    /* bottom: 20px; */
+
+}
+.side{
+    /* position: absolute; */
+    /* height: 100%; */
+    /* overflow-x: hidden; */
 }
 

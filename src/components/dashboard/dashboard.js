@@ -1,10 +1,7 @@
-import React,{Component} from 'react';
+import React from 'react';
 import './dashboard.css';
-import Sidebar from '../sidebar/sidebar';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.png'
 import music from '../../assets/music.png';
-import shady from '../../assets/shady1.jpeg';
-import DonutChart from 'react-donut-chart';
 import linechart from '../../assets/linechart.png';
 import userprofile from '../../assets/userprofile.png'
 import { ChartDonut } from '@patternfly/react-charts';
@@ -28,7 +25,7 @@ class Dashboard extends React.Component {
                             
                         </div>
                         <div className="propic" style={{marginRight:'50px'}}>
-                                    <img src={userprofile} style={{width: '40px',height:'40px', borderRadius:'50%'}}/>
+                                    <img src={userprofile} alt="userpic" style={{width: '40px',height:'40px', borderRadius:'50%'}}/>
                             </div>
                 </div>
 
@@ -54,7 +51,7 @@ class Dashboard extends React.Component {
                 <div className="child">
                     <div className="second lightBlue-color border-radius">
                         {/* <LineChart/> */}
-                        <img src={linechart} className="linechart" />
+                        <img src={linechart} alt="line" className="linechart" />
                         
                         </div>
                         <div className="d-flex" style={{marginTop: '30px'}}>
@@ -93,7 +90,7 @@ class Dashboard extends React.Component {
                         </div>
                     </div>
                 </div>
-              <div className="border-radius forth child" style={{marginTop:'53px'}}>
+              <div className="border-radius forth child" style={{marginTop:'80px'}}>
                 <p style={{fontSize: '24px', fontWeight:'bold'}}>Latest Updates</p>
                 <div className="d-flex" style={{marginTop:'19px'}}>
                     <div className="brand  mr-auto">

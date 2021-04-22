@@ -185,8 +185,11 @@ height: 168px;
 .font-10{
     font-size: 10px;
 }
-@media only screen and (max-device-width : 1430px){
-    .setSize{
-        height: 80%;
+@media only screen and (max-device-width : 1446px){
+    .third{
+        margin-top: 80px;
+    }
+    .forth{
+        margin-top: 50px;
     }
 }

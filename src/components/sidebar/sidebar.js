@@ -19,27 +19,27 @@ class SideBar extends React.Component {
             <div style={{marginTop:'58px'}}>
                 <div className="sub-sidebar">
                 <div className="d-flex">
-                    <img src={overview} className="img-size"/>
+                    <img src={overview} alt="overview" className="img-size"/>
                      <p className="ml-18 fs-14 bold">Overview</p>
                 </div>
                 <div className="d-flex mt-30">
-                    <img src={leaderboard}  className="img-size"/>
+                    <img src={leaderboard} alt="lead" className="img-size"/>
                 <p className="ml-18 fs-14 bold">Leaderboard</p>
                 </div>
                 <div className="d-flex mt-30">
-                    <img src={spreadsheet}  className="img-size"/>
+                    <img src={spreadsheet} alt="spread"  className="img-size"/>
                 <p className="ml-18 fs-14 bold">Spreadsheets</p>
                 </div>
                 <div className="d-flex mt-30">
-                    <img src={administration}  className="img-size"/>
+                    <img src={administration} alt="admin"  className="img-size"/>
                 <p className="ml-18 fs-14 bold">Administration</p>
                 </div>
                 <div className="d-flex mt-30">
-                    <img src={sales}  className="img-size"/>
+                    <img src={sales} alt="sales" className="img-size"/>
                 <p className="ml-18 fs-14 bold">Sales</p>
                 </div>
                 <div className="d-flex mt-30">
-                    <img src={schedule}  className="img-size"/>
+                    <img src={schedule} alt="schedule" className="img-size"/>
                 <p className="ml-18 fs-14 bold">Schedule</p>
                 </div>
             
