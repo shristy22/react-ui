@@ -70,7 +70,7 @@
 }
 @media only screen and (max-device-width : 1084px){
     .sideBarWidth{
-        width: 200px;
+        width: 175px;
         border-radius: 20px;
         background-color: #3D41D7;
         /* opacity: 0.1; */
