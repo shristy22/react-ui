@@ -5,6 +5,9 @@ import Dashboard from '../dashboard/dashboard';
 
 
 class Sample extends React.Component {
+    state={
+        menu: false
+    }
     render() {
         return (
             <div className="grandparents " >
