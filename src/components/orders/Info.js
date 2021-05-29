@@ -56,7 +56,7 @@ const Info = (props) => {
                             <p className="header">Order Details -</p>
                             <p style={{color:'rgba(100,102,141,255)'}}>{props.orderDetails}</p>                                 
                         </div>
-                </div>
+                    </div>
                 <div className="ml-auto">
                     <p className="scanCode">Scan Code</p>
                     <i class="fa fa-camera blue-color1 ml-3" onClick={openCamera}></i>

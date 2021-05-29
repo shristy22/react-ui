@@ -1,0 +1,30 @@
+.formStyle {
+  text-align: center;
+  border: 1px solid;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  background-color: white;
+  /* margin-top: 60px; */
+  /* background-color: white; */
+  /* position: absolute; */
+  /* z-index: 1; */
+  /* margin-top: 30px; */
+}
+.btn-color {
+  border: none !important;
+  background-color: rgb(0, 140, 255) !important;
+  color: white !important;
+  width: 70% !important;
+}
+.backgroundColor {
+  background: linear-gradient(to bottom, #3366ff 46%, #ffffff 0%);
+  margin: 0;
+}
+.MuiInputBase-input {
+  color: rgb(15, 47, 153) !important;
+}
+.makeStyles-root-1 .MuiTextField-root {
+  width: 90% !important;
+}
